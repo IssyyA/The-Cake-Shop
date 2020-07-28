@@ -1,0 +1,16 @@
+.footer {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    width: 92vw;
+    height: 30vh;
+    margin-top: 37rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}

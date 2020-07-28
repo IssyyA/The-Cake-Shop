@@ -1,0 +1,17 @@
+.container-map {
+    margin: 2rem;
+    overflow: hidden;
+}
+
+.map {
+    overflow: hidden;
+}
+
+@media (max-width: 500px) {
+    .container-map {
+        display: none;
+    }
+    .map {
+        display: none;
+    }
+}

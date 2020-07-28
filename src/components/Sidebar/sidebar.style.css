@@ -1,0 +1,156 @@
+.Form {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    min-height: 100vh;
+    z-index: 7;
+}
+
+.Form .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    right: 270px;
+    font-size: 30px;
+    color: #fff;
+    width: 10%;
+    z-index: 5;
+    background-color: #f24472;
+    transition: all 0.5s;
+}
+
+#slider-btn {
+    cursor: pointer;
+}
+
+form {
+    position: absolute;
+    right: 0;
+    width: 90%;
+    padding: 2rem;
+    background-color: #f54c73;
+    min-height: 100%;
+    transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.Form .arrow.slideIn {
+    right: 85px;
+}
+
+form.slideIn {
+    right: -185px;
+    padding-left: 150px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #c53b5b;
+    display: inline-block;
+    border: 1px solid #c53b5b;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #fff;
+    color: #f54c73;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .3s ease;
+}
+
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #c53b5b;
+    display: inline-block;
+    border: 1px solid #c53b5b;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #c53b5b;
+    color: #fff;
+}
+
+::placeholder,
+select option:disabled {
+    color: white;
+    opacity: 0.4;
+}
+
+option,
+select {
+    color: white;
+}
+
+.c-select {
+    text-align: center;
+}
+
+label {
+    margin-top: 5rem;
+}
+
+hr {
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media(max-width:850px) {
+    .Form {
+        position: fixed;
+        top: 0;
+        right: 50;
+        width: 300px;
+        height: 100vh;
+        z-index: 7;
+    }
+    .Form .arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 10%;
+        right: 270px;
+        font-size: 30px;
+        color: #fff;
+        width: 10%;
+        z-index: 5;
+        background-color: #f24472;
+        transition: all 0.5s;
+    }
+    form {
+        position: absolute;
+        right: 0;
+        width: 90%;
+        padding: 2rem;
+        background-color: #f54c73;
+        min-height: 100%;
+        transition: all 0.5s;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+    }
+    .Form .arrow.slideIn {
+        right: 85px;
+    }
+    form.slideIn {
+        right: -185px;
+        padding-left: 150px;
+    }
+}
